@@ -79,7 +79,7 @@ export const sliderContainer = {
 export const ImageAnimation = styled.div`
   .image-animation {
     @media (max-width: 500px) {
-      width: 80%;
+      width: 70%;
     }
   }
 
@@ -167,7 +167,7 @@ export const ImageAnimation = styled.div`
 export const ContactAnimation = styled.div`
   .image-animation {
     @media (max-width: 500px) {
-      width: 80%;
+      width: 70%;
     }
   }
 
