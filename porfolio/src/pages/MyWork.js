@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 //Images
 import backend from "../img/back-end.PNG";
 import frontend from "../img/front-end.PNG";
+import globalsearch from "../img/GlobalSearch.png";
 import music1 from "../img/music1.png";
 import { motion } from "framer-motion";
 import { useScroll } from "../components/useScroll";
@@ -31,6 +32,13 @@ const MyWork = () => {
           End-to-end Global Search
         </motion.h2>
         <motion.div variants={lineAnim} className="line"></motion.div>
+        <Hide>
+          <motion.img
+            variants={photoAnim}
+            src={globalsearch}
+            alt="globalsearch"
+          />
+        </Hide>
         <Hide>
           <motion.img variants={photoAnim} src={backend} alt="backend" />
         </Hide>
