@@ -16,7 +16,7 @@ import {
   slider,
   sliderContainer,
 } from "../animation";
-import { ReactComponent as MachineLearning } from "../img/machine-learning.svg";
+import { ReactComponent as PDFIcon } from "../img/pdf.svg";
 
 const MyWork = () => {
   const [element, controls] = useScroll();
@@ -60,7 +60,7 @@ const MyWork = () => {
         <motion.div variants={lineAnim} className="line"></motion.div>
         <a href="https://drive.google.com/file/d/1SP6PaxoqqtDaqG7S4c_mF9Y2hRwkb9PC/view?usp=sharing">
           {" "}
-          <MachineLearning />
+          <PDFIcon />
         </a>
       </Movie>
       <ScrollTop />
