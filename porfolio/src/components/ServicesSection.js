@@ -40,7 +40,7 @@ const ServicesSection = () => {
         </Cards>
       </Description>
       <ContactAnimation>
-        <ContactMeIcon />
+        <ContactMeIcon className="image-animation" />
       </ContactAnimation>
     </Services>
   );

@@ -77,6 +77,12 @@ export const sliderContainer = {
 };
 
 export const ImageAnimation = styled.div`
+  .image-animation {
+    @media (max-width: 500px) {
+      width: 80%;
+    }
+  }
+
   #React-Icon {
     animation: React-Icon 1s ease infinite alternate;
     transform-origin: bottom;
@@ -159,6 +165,12 @@ export const ImageAnimation = styled.div`
 `;
 
 export const ContactAnimation = styled.div`
+  .image-animation {
+    @media (max-width: 500px) {
+      width: 80%;
+    }
+  }
+
   #head1 {
     animation: head1 1s ease infinite alternate;
     transform-origin: bottom;
